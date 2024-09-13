@@ -1,0 +1,6 @@
+name: NeoProtocol
+author: SocialMoods
+version: 1.0.0
+api-version: "1.0.17"
+main: ru.SocialMoods.NeoProtocol
+description: "Плагин для мульти-протокола"
