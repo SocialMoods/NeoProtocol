@@ -27,7 +27,6 @@ public class NeoProtocol extends PluginBase implements Listener {
     public void onPlayerPreLogin(PlayerPreLoginEvent event) {
         Player player = event.getPlayer();
         String protocol = player.getLoginChainData().getGameVersion();
-        player.getLoginChainData().getD
         getLogger().info("Версия игрока " + player.getName() + ": " + protocol);
 
         if (!versions.contains(protocol)) {
